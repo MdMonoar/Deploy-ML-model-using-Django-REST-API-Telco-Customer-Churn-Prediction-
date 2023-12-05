@@ -29,8 +29,8 @@ class CustomerView(viewsets.ModelViewSet):
 def status(df):
     try:
 
-        scaler = pickle.load(open("/media/manuar/D1/Documents/Codings/machine_learning/projects/churn_1/DeployChurn1/DjangoAPI/Scaler.sav", 'rb'))
-        model = pickle.load(open("/media/manuar/D1/Documents/Codings/machine_learning/projects/churn_1/DeployChurn1/DjangoAPI/Model.sav", 'rb'))
+        scaler = pickle.load(open("./DjangoAPI/Scaler.sav", 'rb'))
+        model = pickle.load(open("./DjangoAPI/Model.sav", 'rb'))
         
         X = scaler.transform(df)
         y_pred = model.predict(X)
