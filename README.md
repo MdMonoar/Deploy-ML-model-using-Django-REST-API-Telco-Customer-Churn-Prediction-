@@ -1,1 +1,14 @@
-This is the follow up project of Telco-Customer-Churn-Prediction using ML. In this project I used Django and REST API to deploy the ML model to a Django WebApp
+# Deploying ML model on web
+
+This is the follow up project of Telco-Customer-Churn-Prediction using ML. To see that project click [here](https://github.com/MdMonoar/Telco-Customer-Churn-Prediction).
+
+In this project a WebApp was deployed that predicts if a telecom customer will churns or not based on some given information.
+
+## Tools and Platforms:
+
+**Django, REST API (djangorestframework) and Render**
+
+Django and REST API was used to build an WebApp. The WebApp takes some information and pass it to the ML model. The model predicts if the customer churns or not. The WebApp is hosted on Render.
+
+## See in Action:
+Please click [here](https://telecom-customer-churn-prediction-a3kl.onrender.com) to see the project in action.
