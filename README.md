@@ -6,7 +6,7 @@ In this project a WebApp was deployed that predicts if a telecom customer churns
 
 ## Tools and Platforms:
 
-**Django, REST API (djangorestframework) and Render**
+##### Python, Django, REST API (djangorestframework) and Render
 
 Django and REST API was used to build an WebApp. The WebApp takes some information and pass it to the ML model. The model predicts if the customer churns or not. The WebApp is hosted on Render.
 
